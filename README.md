@@ -75,7 +75,7 @@ lib/
 │   ├── search_screen.dart        # Provides search functionality and displays filtered country results.
 │   └── country_details_screen.dart # Shows detailed information about a selected country.
 ├── main.dart                     # Main application file, defines routes and initial setup.
-
+```
 ## Credits
 
 This project uses the [REST Countries API](https://restcountries.com/) to fetch up-to-date information about countries around the world.
