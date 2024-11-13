@@ -27,8 +27,8 @@ A Flutter application that provides information on countries around the world, u
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/country-info-app.git
-    cd country-info-app
+    git clone https://github.com/eobolo/Flutter-Individual-Project-2.git
+    cd Flutter-Individual-Project-2
     ```
 
 2. Install dependencies:
