@@ -63,6 +63,22 @@ A Flutter application that provides information on countries around the world, u
   - Currency
 - Each piece of information is organized in separate cards for easy readability.
 
+## Development Process
+
+### API Selection and Purpose
+The application uses the [REST Countries API](https://restcountries.com/v3.1/all) to fetch up-to-date information about countries around the world. The API was chosen for its comprehensive and well-structured data, which includes details such as capital cities, population statistics, official languages, and currencies.
+
+### Screens and Their Functionalities
+- **Home Screen**: Displays a list of all countries with a search feature to easily navigate through the dataset.
+- **Search Screen**: Implements a live search bar for filtering country names and dynamically updates the displayed list.
+- **Country Details Screen**: Provides a detailed view of a country, ensuring an organized presentation of critical information in cards.
+
+### Challenges and Resolutions
+- **Challenge**: Handling asynchronous API requests efficiently without blocking the UI.
+  - **Resolution**: Utilized GetX's reactive state management for handling API calls and updating the UI seamlessly.
+- **Challenge**: Designing an intuitive and responsive UI across different devices.
+  - **Resolution**: Applied Flutter’s flexible widget system and styled components to ensure a consistent experience on multiple screen sizes.
+
 ## Project Structure
 
 ```plaintext
@@ -78,4 +94,4 @@ lib/
 ```
 ## Credits
 
-This project uses the [REST Countries API](https://restcountries.com/) to fetch up-to-date information about countries around the world.
+This project uses the [REST Countries API](https://restcountries.com/v3.1/all) to fetch up-to-date information about countries around the world.
